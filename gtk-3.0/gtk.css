@@ -201,10 +201,10 @@ read if you used those and something break with a version upgrade you're on your
  ***************/
 .background {
   color: #d8dee9;
-  background-color: #434c5e; }
+  background-color: rgba(67, 76, 94, 0.80); }
   .background:backdrop {
     color: #8e95a4;
-    background-color: #434c5e;
+    background-color: rgba(67, 76, 94, 0.75);
     text-shadow: none;
     -gtk-icon-shadow: none; }
 
@@ -223,16 +223,16 @@ selection {
 
 .gtkstyle-fallback {
   color: #d8dee9;
-  background-color: #434c5e; }
+  background-color: rgba(67, 76, 94, 0.5); }
   .gtkstyle-fallback:hover {
     color: #d8dee9;
     background-color: #58647c; }
   .gtkstyle-fallback:active {
     color: #d8dee9;
-    background-color: #2e3440; }
+    background-color: rgba(67, 76, 94, 0.5); }
   .gtkstyle-fallback:disabled {
     color: #8e95a4;
-    background-color: #404859; }
+    background-color: rgba(67, 76, 94, 0.5); }
   .gtkstyle-fallback:selected {
     color: #2e3440;
     background-color: #8fbcbb; }
@@ -242,13 +242,13 @@ selection {
 iconview text,
 textview text {
   color: #d8dee9;
-  background-color: #3b4252; }
+  background-color: rgba(67, 76, 94, 0.0); }
   .view:backdrop, iconview:backdrop,
   .view text:backdrop,
   iconview text:backdrop,
   textview text:backdrop {
     color: #b9bfcb;
-    background-color: #3d4455; }
+    background-color: rgba(67, 76, 94, 0.0); }
   .view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected,
   .view text:selected:focus,
   iconview text:selected:focus,
@@ -259,7 +259,7 @@ textview text {
     border-radius: 3px; }
 
 textview border {
-  background-color: #3f4758; }
+  background-color: rgba(67, 76, 94, 1.0); }
 
 .rubberband,
 rubberband,
@@ -6144,7 +6144,7 @@ ConversationListView {
 
 /* thunar */
 .thunar toolbar {
-  background-color: #2b313c; }
+  background-color: rgba(43, 49, 60, 0.9); }
 
 /* buttons in toolbar */
 .thunar toolbar.horizontal button image {
@@ -6194,11 +6194,11 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
   text-shadow: none; }
 
 /* thunar sidepane */
-.thunar scrolledwindow.sidebar treeview.view {
-  background: #2a2f3a;
+.thunar scrolledwindow.sidebar {
+  background-color: rgba(42, 47, 58, 0.60);
   padding: 1.5px; }
   .thunar scrolledwindow.sidebar treeview.view:hover, .thunar scrolledwindow.sidebar treeview.view:selected {
-    background: rgba(143, 188, 187, 0.7);
+    background-color: rgba(143, 188, 187, 0.7);
     color: #2e3440;
     border-radius: 0;
     box-shadow: none; }
