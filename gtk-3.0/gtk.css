@@ -242,7 +242,7 @@ selection {
 iconview text,
 textview text {
   color: #d8dee9;
-  background-color: rgba(67, 76, 94, 0.0); }
+  background-color: rgba(67, 76, 94, 1.0); }
   .view:backdrop, iconview:backdrop,
   .view text:backdrop,
   iconview text:backdrop,
@@ -6145,6 +6145,12 @@ ConversationListView {
 /* thunar */
 .thunar toolbar {
   background-color: rgba(43, 49, 60, 0.9); }
+.thunar .view, iconview,
+.thunar .view text,
+.thunar iconview text,
+.thunar textview text {
+  color: #d8dee9;
+  background-color: rgba(67, 76, 94, 0.0); }
 
 /* buttons in toolbar */
 .thunar toolbar.horizontal button image {
